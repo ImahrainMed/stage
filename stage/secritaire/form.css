@@ -1,0 +1,53 @@
+input[type=date], input[type=password],input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 6px ;
+    display: inline-block;
+    border: 1px solid rgb(6, 143, 113);;
+    box-sizing: border-box;
+    background: rgb(250, 255, 250);
+}
+textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 6px ;
+    display: inline-block;
+    border: 1px solid rgb(6, 143, 113);;
+    box-sizing: border-box;
+    background: rgb(231, 240, 231);
+}
+#container{
+    width:400px;
+    margin:0 auto;
+    margin-top:8%;
+    
+}
+form {
+    width:140%;
+    padding: 30px;
+    border: 1px solid rgb(6, 143, 113);
+    background: hsl(0, 0%, 100%);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 9px;
+}
+input[type=submit]:hover {
+    border: 1px solid  rgb(6, 143, 113);
+}
+table {
+    border: medium solid #0ea371;
+    width: 100%;
+    }
+    td, th {
+    border: thin solid #1ea075;
+    background-color: rgb(8, 4, 4);
+    /* width: 50%; */
+    }
+    tr{
+        color: azure;
+    }
+    thead{
+        color: brown;
+    }
+    td{
+        color: azure;
+    }
